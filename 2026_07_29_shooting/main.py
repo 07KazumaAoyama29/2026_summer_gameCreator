@@ -68,7 +68,7 @@ DIGITS = {
 class App:
     def __init__(self):
         pyxel.init(WIDTH, HEIGHT, title="Pyxel Shooting")
-        pyxel.load(str(Path(__file__).with_name("shooting.pyxres")))
+        pyxel.load(str(Path(__file__).with_name("my_resource.pyxres")))
 
         self.high_score = 0
         self.reset_game()
